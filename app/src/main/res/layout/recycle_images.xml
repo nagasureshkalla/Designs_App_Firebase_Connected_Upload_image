@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="match_parent"
+        style="@style/Card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imge"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="alignMain">15dp</dimen>
+    <dimen name="strokewidthee">0.5dp</dimen>
+    <dimen name="cardelivation">3dp</dimen>
+    <dimen name="alignCard">8dp</dimen>
+    <dimen name="radiusCaed">10dp</dimen>
+    <dimen name="marginTop">5dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="AlignmentMain" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:layout_marginEnd">@dimen/alignMain</item>
+        <item name="android:layout_marginStart">@dimen/alignMain</item>
+        <item name="android:layout_marginTop">@dimen/alignMain</item>
+        <item name="android:layout_marginBottom">@dimen/alignMain</item>
+    </style>
+
+    <style name="Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/cardelivation</item>
+        <item name="cardCornerRadius">@dimen/radiusCaed</item>
+        <item name="android:startColor">@color/colorPrimary</item>
+        <item name="android:strokeWidth">@dimen/strokewidthee</item>
+        <item name="android:layout_marginEnd">@dimen/alignCard</item>
+        <item name="android:layout_marginStart">@dimen/alignCard</item>
+        <item name="android:layout_marginTop">@dimen/alignCard</item>
+        <item name="android:layout_marginBottom">@dimen/alignCard</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+
+
+
+
+    <style name="Widget.Shrine.Backdrop" parent="">
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
+</resources>

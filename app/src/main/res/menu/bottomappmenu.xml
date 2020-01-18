@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/menu"
+        android:title="Menu"
+        android:icon="@drawable/action_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/management"
+        android:title="Admin"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/people_black_24dp"/>
+    <item
+        android:id="@+id/academics"
+        android:title="Academics"
+        android:icon="@drawable/acedimics_black_24dp"/>
+</menu>
